@@ -1,17 +1,19 @@
 # NGINX DOCKER
 
-Ambientação e provisionamento de um servidor web.
+### Ambientação e provisionamento de um Servidor Web.
 
-Como configurar?
+- Como configurar um Web Server?
 
-Como servir arquivos estaticos?
+- Como servir arquivos estáticos?
 
-Como conectar com o PHP?
+- Como conectar com o PHP?
 
-O que diabos é um proxy é por que ele é tanto usado?
+- O que diabos é um proxy é por que ele é tanto usado?
+
+- Por que nossa aplicação PHP não é exposta na Web?
 
 --
 
-static files:
+Path dos arquivos estáticos:
 
 `usr/share/nginx/html`
