@@ -1,0 +1,10 @@
+name: webserver
+
+services:
+  nginx:
+    build:
+      context: .
+    container_name: webserver
+    ports:
+      - '80:80'
+    restart: always
