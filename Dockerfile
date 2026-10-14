@@ -4,6 +4,8 @@ RUN apk update
 
 WORKDIR /app
 
+COPY /nginx/etc/nginx/nginx.conf /etc/nginx
+
 RUN apk add --no-cache git \
 	bash \
 	wget \
@@ -11,4 +13,4 @@ RUN apk add --no-cache git \
 
 RUN apk cache purge
 
-COPY /static /usr/share/nginx/html/static
+COPY /static /usr/share/nginx/html

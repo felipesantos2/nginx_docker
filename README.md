@@ -16,8 +16,8 @@
 
 ➡️​
 
-Path dos arquivos estáticos:
+1 - Diretórios do Nginx
 
-`usr/share/nginx/html`
+  Onde os arquivos ficam: `usr/share/nginx/html`
 
 ➡️​
